@@ -1,0 +1,99 @@
+/*BODY STYLE*/
+body, html {
+    color: rgb(24, 24, 24);
+    height: 100%;
+    margin: 0;
+    font-family: helvetica, sans-serif;
+    background-image:
+    radial-gradient(at 39% 32%, hsla(171,67%,69%,1) 0px, transparent 50%),
+    radial-gradient(at 82% 95%, rgb(248, 144, 212) 0px, transparent 50%),
+    radial-gradient(at 31% 34%, hsla(194,98%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 37% 58%, hsla(89,60%,61%,1) 0px, transparent 50%),
+    radial-gradient(at 99% 62%, rgb(253, 199, 198) 0px, transparent 50%),
+    radial-gradient(at 26% 93%, hsla(305,92%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 2% 48%, hsla(105,70%,76%,1) 0px, transparent 50%);
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#fff399;
+  }
+
+
+  /*MAIN HEADING*/
+  .title{
+    color: rgb(24, 24, 24);
+    font-family: Fruktur;
+    font-size: 28px;
+    line-height: 80px;
+  }
+
+
+  /*REST OF BODY*/
+.silly-image img{
+    /*display: flex;
+    text-align: center;
+    align-items: center;
+    background: no-repeat;*/
+    width: 180px;
+    height: 180px;
+    /*background-image: url(./images/heyhey-bird.png);*/
+
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  div {
+    padding-bottom: 16px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 380px;
+    height: 32px;
+    border: 5px solid #FACA1F;
+    margin: 16px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  div .custom-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .randomize{
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #5e2612;
+    height: 48px;
+    border-radius: 60px;
+    border: 1px solid #cc9200da;
+    background: #FFC700;
+    box-shadow: 0px 3px 2px 0px #fed261 inset, 0px -4px 2px 0px #fed261 inset;
+  }
+
+  .randomize:hover{
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .story{
+    width: 380px;
+    padding: 20px;
+    border: 1px solid #cc9200da;
+    border-radius: 16px;
+    background: #f5e5be;
+    color: #5e2612;
+    padding: 10px;
+    visibility: hidden;
+  }

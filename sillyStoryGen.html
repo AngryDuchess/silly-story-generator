@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Silly story generator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Silly Story Generator</h1>
+      </div>
+      <div class="silly-image">
+        <img src="images/heyhey-bird.png">
+      </div>
+      <div class="custom-input">
+        <label for="customname">Enter custom name:</label>
+        <input id="customname" type="text" placeholder="" />
+      </div>
+      <div>
+        <label for="us">US</label>
+        <input id="us" type="radio" name="ukus" value="us" checked />
+        <label for="uk">UK</label>
+        <input id="uk" type="radio" name="ukus" value="uk" />
+      </div>
+      <div>
+        <button class="randomize"><b>Generate random story</b></button>
+      </div>
+      <!-- Shout out to MDN -->
+      <p class="story"></p>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
