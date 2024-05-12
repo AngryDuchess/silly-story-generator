@@ -1,10 +1,16 @@
 /*BODY STYLE*/
-body, html {
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
     color: rgb(24, 24, 24);
     height: 100%;
     margin: 0;
     font-family: helvetica, sans-serif;
-    background-image:
+    background:
     radial-gradient(at 39% 32%, hsla(171,67%,69%,1) 0px, transparent 50%),
     radial-gradient(at 82% 95%, rgb(248, 144, 212) 0px, transparent 50%),
     radial-gradient(at 31% 34%, hsla(194,98%,78%,1) 0px, transparent 50%),
@@ -31,14 +37,10 @@ body, html {
 
   /*REST OF BODY*/
 .silly-image img{
-    /*display: flex;
-    text-align: center;
-    align-items: center;
-    background: no-repeat;*/
-    width: 180px;
-    height: 180px;
-    /*background-image: url(./images/heyhey-bird.png);*/
-
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    border: 5px solid #fed261;
   }
 
   label {
@@ -96,4 +98,8 @@ body, html {
     color: #5e2612;
     padding: 10px;
     visibility: hidden;
+  }
+
+  @media screen and (max-width: 375px) {
+    
   }
